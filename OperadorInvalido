@@ -1,0 +1,11 @@
+public class OperadorInvalido extends Exception {
+        public OperadorInvalido()
+        {
+                super("Operador inválido.");
+        }
+        public OperadorInvalido(char op)
+        {
+                super("Operador"+op+"inválido.");
+        }
+        
+}
